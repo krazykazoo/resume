@@ -1,0 +1,6 @@
+---
+applications:
+- name: resume-ui
+  path: target/resume-ui-0.0.1-SNAPSHOT.jar
+  env:
+    SPRING_PROFILE: cloud

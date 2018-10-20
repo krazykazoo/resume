@@ -1,1 +1,59 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                        supported by Chrome and Opera */
+}
+
+.hand {
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    width: 100vw;
+    height: 7.5vh;
+    background: #0033A0
+
+}
+
+.navbar__logo {
+    max-width: 20vw;
+
+}
+
+.navbar__button {
+    font-size: 1em;
+    font-weight: 600;
+    font-family: Helvetica;
+    vertical-align: middle;
+    text-align: center;
+    margin: 1vh 1vw;
+    max-width: 15vw;
+    padding: 15px;
+    background: white;
+}
+
+.page-title {
+    font-size: 2em;
+    font-family: Helvetica;
+    font-weight: 800;
+    text-align: center;
+}
+
+.joke-title {
+    font-size: .6em;
+    font-family: Helvetica;
+    text-align: center;
+}
